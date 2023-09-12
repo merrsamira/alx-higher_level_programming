@@ -1,11 +1,10 @@
 #!/usr/bin/node
-if (process.argv[2] === undefined || isNaN(process.argv[2])) {
-    console.log('Missing size');
-  } else {
-    const x = Number(process.argv[2]);
-    let i = 0;
-    while (i < x) {
-      console.log('X'.repeat(x));
-      i++;
-    }
+// script that prints a square
+const size = process.argv[2];
+if (isNaN(size)) {
+  console.log('Missing size');
+} else {
+  for (let k = 0; k < size; k++) {
+    console.log('X'.repeat(size));
   }
+}

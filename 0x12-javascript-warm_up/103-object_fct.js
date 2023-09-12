@@ -1,4 +1,5 @@
 #!/usr/bin/node
+// function that increments the integer.
 const myObject = {
     type: 'object',
     value: 12

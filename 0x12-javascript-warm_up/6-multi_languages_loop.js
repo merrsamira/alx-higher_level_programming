@@ -1,4 +1,7 @@
 #!/usr/bin/node
-for (const line of ['C is fun', 'Python is cool', 'JavaScript is amazing']) {
-    console.log(line);
-  }
+/* script that prints 3 lines: (like 1-multi_languages.js)
+but by using an array of string and a loop */
+const myArray = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
+for (let k = 0; k < myArray.length; k++) {
+  console.log(myArray[k]);
+}
